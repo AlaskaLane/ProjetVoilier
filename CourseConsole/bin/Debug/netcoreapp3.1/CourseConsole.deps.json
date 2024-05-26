@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CourseConsole/1.0.0": {
+        "dependencies": {
+          "CourseLibrary": "1.0.0"
+        },
+        "runtime": {
+          "CourseConsole.dll": {}
+        }
+      },
+      "CourseLibrary/1.0.0": {
+        "runtime": {
+          "CourseLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CourseConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CourseLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

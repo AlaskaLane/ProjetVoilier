@@ -1,0 +1,5 @@
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Release\netcoreapp3.1\CourseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Release\netcoreapp3.1\CourseLibrary.AssemblyInfoInputs.cache
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Release\netcoreapp3.1\CourseLibrary.AssemblyInfo.cs
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Release\netcoreapp3.1\CourseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Release\netcoreapp3.1\CourseLibrary.sourcelink.json

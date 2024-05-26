@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\CourseConsole.csproj",
+      "projectUniqueName": "c:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\CourseConsole.csproj",
       "projectName": "CourseConsole",
-      "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\CourseConsole.csproj",
+      "projectPath": "c:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\CourseConsole.csproj",
       "packagesPath": "C:\\Users\\Low-i\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\obj\\",
+      "outputPath": "c:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Low-i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj": {
-              "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj"
+            "c:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj": {
+              "projectPath": "c:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj"
             }
           }
         }

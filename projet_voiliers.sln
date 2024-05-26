@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseConsole", "CourseCons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourseLibrary", "CourseLibrary\CourseLibrary.csproj", "{13E3A680-F44F-4405-87B1-F20D100F59FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{8679F6C2-F95D-4088-B6E7-77DFF3E294EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{13E3A680-F44F-4405-87B1-F20D100F59FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E3A680-F44F-4405-87B1-F20D100F59FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E3A680-F44F-4405-87B1-F20D100F59FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8679F6C2-F95D-4088-B6E7-77DFF3E294EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8679F6C2-F95D-4088-B6E7-77DFF3E294EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8679F6C2-F95D-4088-B6E7-77DFF3E294EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8679F6C2-F95D-4088-B6E7-77DFF3E294EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

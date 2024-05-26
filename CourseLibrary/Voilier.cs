@@ -3,12 +3,44 @@ using System.Collections.Generic;
 
 namespace CourseLibrary
 {
-    public class Voilier
+    public abstract class Voilier
     {
-        public int Id { get; set; }
+        #region Properties
         public string Code { get; set; }
-        public Entreprise Proprietaire { get; set; }
-        public List<Personne> Personnes { get; set; }
-        public List<Effectue> EpreuvesEffectuees { get; set; }
+        public List<Personne> Equipage { get; set; }
+        #endregion
+
+        #region Methods
+        public bool AjouterPersonne(Personne personne)
+        {
+            if (Equipage.Exists(p => p.Id == personne.Id))
+            {
+                return false;
+            }
+            Equipage.Add(personne);
+            return true;
+        }
+        public Personne GetPersonne(int id)
+        {
+            return Equipage.Find(p => p.Id == id);
+        }
+        public bool SupprimerPersonne(int id)
+        {
+            if (Equipage.Exists(p => p.Id == id) == false)
+            {
+                return false;
+            }
+            Equipage.Remove(GetPersonne(id));
+            return true;
+        }
+        #endregion
+
+        #region Constructors
+        public Voilier(string code)
+        {
+            Code = code;
+            Equipage = new List<Personne>();
+        }
+        #endregion
     }  
 }

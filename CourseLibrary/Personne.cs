@@ -5,6 +5,7 @@ namespace CourseLibrary
 {
     public class Personne
     {
+        #region Properties
         public int Id { get; set; }
         public string Nom { get; set; }
         public string Prenom { get; set; }
@@ -14,7 +15,21 @@ namespace CourseLibrary
         public string CodePostal { get; set; }
         public string Ville { get; set; }
         public string Pays { get; set; }
-        public List<Voilier> Voiliers { get; set; }
-        public List<Effectue> EpreuvesEffectuees { get; set; }
+        #endregion
+
+        #region Constructors
+        public Personne(int id, string nom, string prenom, string email, string telephone, string adresse, string codePostal, string ville, string pays)
+        {
+            Id = id;
+            Nom = nom;
+            Prenom = prenom;
+            Email = email;
+            Telephone = telephone;
+            Adresse = adresse;
+            CodePostal = codePostal;
+            Ville = ville;
+            Pays = pays;
+        }
+        #endregion
     }
 }

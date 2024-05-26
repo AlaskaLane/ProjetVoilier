@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YcCxiWO5ycRjKLcaKXt0kysAK8iuW4SoNsnzeHlb5UDhGnKEdwBVk8f+QJ+CsbTKMn2toa88uoTo5N+WyaRhzA==",
+  "dgSpecHash": "hu6gROp1+stlsQddzwhURIYSiLXqWaRP8KYXKRKTNuilwOOmRwY7CZlSU0bM/n6VQmYqAqPPm9c2uyiLFWxajg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\CourseConsole.csproj",
+  "projectFilePath": "c:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\CourseConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Low-i\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\Low-i\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"

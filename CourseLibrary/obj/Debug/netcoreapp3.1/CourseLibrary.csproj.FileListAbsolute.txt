@@ -1,0 +1,10 @@
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\netcoreapp3.1\CourseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\netcoreapp3.1\CourseLibrary.AssemblyInfoInputs.cache
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\netcoreapp3.1\CourseLibrary.AssemblyInfo.cs
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\netcoreapp3.1\CourseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\netcoreapp3.1\CourseLibrary.sourcelink.json
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\bin\Debug\netcoreapp3.1\CourseLibrary.deps.json
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\bin\Debug\netcoreapp3.1\CourseLibrary.dll
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\bin\Debug\netcoreapp3.1\CourseLibrary.pdb
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\netcoreapp3.1\CourseLibrary.dll
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\netcoreapp3.1\CourseLibrary.pdb
