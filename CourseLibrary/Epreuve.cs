@@ -19,14 +19,6 @@ namespace CourseLibrary
             Ordre = ordre;
             Course = course;
         }
-        public static int calcul(int[] prices, double k){
-           double total;
-            foreach (int price in prices){
-                total =+ price;
-            }
-            return total;
-        }
-
         #endregion
     }
 }
