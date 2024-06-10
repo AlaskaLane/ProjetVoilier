@@ -3707,11 +3707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj",
       "projectName": "CourseLibrary",
-      "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj",
+      "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj",
       "packagesPath": "C:\\Users\\Low-i\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\obj\\",
+      "outputPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Low-i\\AppData\\Roaming\\NuGet\\NuGet.Config",

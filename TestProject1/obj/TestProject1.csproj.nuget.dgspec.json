@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\TestProject1\\TestProject1.csproj": {}
+    "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\TestProject1\\TestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj": {
+    "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj",
         "projectName": "CourseLibrary",
-        "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj",
+        "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj",
         "packagesPath": "C:\\Users\\Low-i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Low-i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\TestProject1\\TestProject1.csproj": {
+    "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\TestProject1\\TestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\TestProject1\\TestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\TestProject1\\TestProject1.csproj",
         "projectName": "TestProject1",
-        "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\TestProject1\\TestProject1.csproj",
+        "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\TestProject1\\TestProject1.csproj",
         "packagesPath": "C:\\Users\\Low-i\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\TestProject1\\obj\\",
+        "outputPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\TestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Low-i\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,8 +100,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj": {
-                "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj"
+              "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj": {
+                "projectPath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseLibrary\\CourseLibrary.csproj"
               }
             }
           }

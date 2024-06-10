@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AlkNUcwQ7ajjwksUQgCgLIDTM/2nmu7VzZ9AdBP2K7hv6K/ZLhA1kCK0WCFinHDL8lCAi64R7kaHYzVAOXC1Cw==",
+  "dgSpecHash": "oINAJxV63HlTV1yCGbjYgJ53JxoktLs+PKCn7TemuSkPJdzDrvCUA3yOlbnrypRIWLLr+z7DKu9p3ki1o6i4vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\CourseConsole\\CourseConsole.csproj",
+  "projectFilePath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\CourseConsole\\CourseConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Low-i\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Low-i\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",

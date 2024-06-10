@@ -24,7 +24,7 @@ public partial class ProjetVoilierContext : DbContext
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseMySQL("Server=localhost;Database=projet_voilier;Uid=root;Pwd=tardis;Port=3307;Allow User Variables=True;");
+        => optionsBuilder.UseMySQL("Server=localhost;Database=projet_voilier;Uid=root;Pwd=tardis;Port=3307;Allow User Variables=True;"); // yes, I know, it's not secure
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ARB8qFEUdg6UY3si0MBnUB9VUU9q6kif0EBCP2EbKUXpwdv7ivq8rD9ds7EXbvFgTVTuvacLgKSfxO0PHz7VcQ==",
+  "dgSpecHash": "6vhPGVDr9MP5ZhmCVCBnlT6CAmppSnLzECm8W40tDV3TdOeS8Aleg234dzHVI89T68VmSpDzZymOXRPNQUzdbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\projet_voiliers\\TestProject1\\TestProject1.csproj",
+  "projectFilePath": "C:\\Users\\Low-i\\OneDrive\\Bureau\\Nouveau dossier\\projet_voiliers\\TestProject1\\TestProject1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Low-i\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Low-i\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
