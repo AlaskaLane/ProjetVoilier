@@ -1,39 +1,121 @@
 using NUnit.Framework;
-using System;
-using System.IO;
 using CourseLibrary;
+using System.Collections.Generic;
 
-namespace CourseTestsNamespace
+namespace CourseLibrary.Tests
 {
     [TestFixture]
     public class CourseTests
     {
-        [Test]
-        public void AfficherDetails_Test()
+        private Course _course;
+        private VoilierEnCourse _voilier1;
+        private VoilierEnCourse _voilier2;
+        private Epreuve _epreuve1;
+        private Epreuve _epreuve2;
+
+        [SetUp]
+        public void SetUp()
         {
-            // Arrange
-            Course course = new Course(1);
-            course.Participants.Add(new VoilierEnCourse("VA102SETE","CODE52453,", course));
-            course.Participants.Add(new VoilierEnCourse("VB103SETE", "CODE546R", course));
-            course.Epreuves.Add(new Epreuve(1, "Epreuve 1", 1, course));
+            _course = new Course();
+            _voilier1 = new VoilierEnCourse("code1", "codeInscription1");
+            _voilier2 = new VoilierEnCourse("code2", "codeInscription2");
+            _epreuve1 = new Epreuve (1, "Epreuve 1", 1, 1);
+            _epreuve2 = new Epreuve (2, "Epreuve 2", 2, 1);
+        }
 
-            // Capture la sortie console
-            StringWriter stringWriter = new StringWriter();
-            Console.SetOut(stringWriter);
+        [Test]
+        public void AjouterParticipant_ShouldAddParticipant()
+        {
+            bool result = _course.AjouterParticipant(_voilier1);
+            Assert.IsTrue(result);
+            Assert.Contains(_voilier1, _course.Participants);
+        }
 
-            // Act
-            course.AfficherDetails();
+        [Test]
+        public void AjouterParticipant_ShouldNotAddDuplicateParticipant()
+        {
+            _course.AjouterParticipant(_voilier1);
+            bool result = _course.AjouterParticipant(_voilier1);
+            Assert.IsFalse(result);
+        }
 
-            // Récupère la sortie console
-            string consoleOutput = stringWriter.ToString();
+        [Test]
+        public void GetParticipant_ShouldReturnCorrectParticipant()
+        {
+            _course.AjouterParticipant(_voilier1);
+            var participant = _course.GetParticipant(_voilier1.Code);
+            Assert.That(participant, Is.EqualTo(_voilier1));
+        }
 
-            // Assert
-            StringAssert.Contains("Course ID: 1", consoleOutput);
-            StringAssert.Contains("Participants:", consoleOutput);
-            StringAssert.Contains("Epreuves:", consoleOutput);
-            StringAssert.Contains("VA102SETE", consoleOutput);
-            StringAssert.Contains("VB103SETE", consoleOutput);
-            StringAssert.Contains("Epreuve 1", consoleOutput);
+        [Test]
+        public void GetParticipants_ShouldReturnAllParticipants()
+        {
+            _course.AjouterParticipant(_voilier1);
+            _course.AjouterParticipant(_voilier2);
+            var participants = _course.GetParticipants();
+            Assert.Contains(_voilier1, participants);
+            Assert.Contains(_voilier2, participants);
+        }
+
+        [Test]
+        public void SupprimerParticipant_ShouldRemoveParticipant()
+        {
+            _course.AjouterParticipant(_voilier1);
+            bool result = _course.SupprimerParticipant(_voilier1.Code);
+            Assert.IsTrue(result);
+            Assert.IsFalse(_course.Participants.Contains(_voilier1));
+        }
+
+        [Test]
+        public void SupprimerParticipant_ShouldReturnFalseIfParticipantNotExists()
+        {
+            bool result = _course.SupprimerParticipant("nonexistent_code");
+            Assert.IsFalse(result);
+        }
+
+        [Test]
+        public void AjouterEpreuve_ShouldAddEpreuve()
+        {
+            bool result = _course.AjouterEpreuve(_epreuve1);
+            Assert.IsTrue(result);
+            Assert.Contains(_epreuve1, _course.Epreuves);
+        }
+
+        [Test]
+        public void AjouterEpreuve_ShouldNotAddDuplicateEpreuve()
+        {
+            _course.AjouterEpreuve(_epreuve1);
+            bool result = _course.AjouterEpreuve(_epreuve1);
+            Assert.IsFalse(result);
+        }
+
+        [Test]
+        public void SupprimerEpreuve_ShouldRemoveEpreuve()
+        {
+            _course.AjouterEpreuve(_epreuve1);
+            bool result = _course.SupprimerEpreuve(_epreuve1.Num);
+            Assert.IsTrue(result);
+            Assert.IsFalse(_course.Epreuves.Contains(_epreuve1));
+        }
+
+        [Test]
+        public void SupprimerEpreuve_ShouldReturnFalseIfEpreuveNotExists()
+        {
+            bool result = _course.SupprimerEpreuve(999);
+            Assert.IsFalse(result);
+        }
+
+        [Test]
+        public void ToString_ShouldReturnCorrectFormat()
+        {
+            _course.AjouterParticipant(_voilier1);
+            _course.AjouterEpreuve(_epreuve1);
+            string details = _course.ToString();
+            Assert.IsTrue(details.Contains("Course ID"));
+            Assert.IsTrue(details.Contains("Participants:"));
+            Assert.IsTrue(details.Contains(_voilier1.Code));
+            Assert.IsTrue(details.Contains("Epreuves:"));
+            Assert.IsTrue(details.Contains(_epreuve1.Libelle));
         }
     }
 }

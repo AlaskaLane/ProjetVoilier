@@ -1,0 +1,15 @@
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\bin\Debug\net8.0\CourseLibrary.deps.json
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\bin\Debug\net8.0\CourseLibrary.runtimeconfig.json
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\bin\Debug\net8.0\CourseLibrary.dll
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\bin\Debug\net8.0\CourseLibrary.pdb
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.csproj.AssemblyReference.cache
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.AssemblyInfoInputs.cache
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.AssemblyInfo.cs
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.sourcelink.json
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.dll
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\refint\CourseLibrary.dll
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.pdb
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\CourseLibrary.genruntimeconfig.cache
+C:\Users\Low-i\OneDrive\Bureau\projet_voiliers\CourseLibrary\obj\Debug\net8.0\ref\CourseLibrary.dll
